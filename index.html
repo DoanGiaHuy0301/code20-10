@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body id="body">
+    <div class="container1">
+      <button id="showForm" onclick="show()">
+        <span class="shadow"></span>
+        <span class="edge"></span>
+        <span class="front text"> Click me </span>
+      </button>
+      <form id="form" class="form">
+        <div class="title">Welcome,<br /><span></span></div>
+        <input
+          class="input"
+          id="username"
+          name="username"
+          placeholder="Nhập họ và tên"
+          type="text"
+        />
+        <input
+          class="input"
+          id="password"
+          name="password"
+          placeholder="Mật khẩu"
+          type="password"
+        />
+        <div class="error"></div>
+        <button class="button-confirm" onclick="showForm()">Let`s go →</button>
+      </form>
+    </div>
+
+    <div class="container" id="cloud">
+      <div class="cloud">
+        <h2>Happy women's day 20/10</h2>
+      </div>
+    </div>
+    <div class="left-ball"></div>
+    <div class="bottom-ball"></div>
+    <script src="./main.js"></script>
+  </body>
+</html>
